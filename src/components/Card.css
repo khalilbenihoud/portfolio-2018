@@ -1,0 +1,12 @@
+.Card{
+    padding:20px;
+    width:300px;
+    height: 300px;
+    border-radius:20px;
+    background-color: beige;
+    transition: .8s cubic-bezier(.2,.8,.2,1)
+}
+
+.Card:hover{
+    transform:scale(1.1,1.1)
+}
